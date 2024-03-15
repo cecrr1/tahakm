@@ -12,11 +12,11 @@
   "success_url": "/welcome",
   "scripts": {
     "postdeploy": "bundle exec rake bootstrap"
-  },
-  "env": {
-    "SECRET_TOKEN": {
-      "description": "6645220979:AAGUg_95-PmuNn-YmZmKz4BJ6NQb_9JtQFI",
-      "generator": "secret"
+   },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "",
+        "required": true
     },
     "WEB_CONCURRENCY": {
       "description": "The number of processes to run.",
