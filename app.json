@@ -53,7 +53,7 @@
               "url": "heroku/nodejs"
           },
           {
-            https://github.com/cecrr1/tahakm/upload/main
+            "url": "https://github.com/cecrr1/tahakm"
           }
       ],
       "stack": "container"
